@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="dash-page">
 
     <!-- ── Ambient background ── -->
@@ -10,7 +10,7 @@
     <div class="bg-grid" aria-hidden="true"></div>
 
     <!-- ── Sidebar ── -->
-    <Sidebar />
+    <Sidebar :open="sidebarOpen" @update:open="sidebarOpen = $event" />
 
     <!-- ── Main content ── -->
     <div class="main-wrap">

@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="task-page">
 
     <div class="bg-ambients" aria-hidden="true">
@@ -8,7 +8,7 @@
     </div>
     <div class="bg-grid" aria-hidden="true"></div>
 
-    <StudentSidebar />
+    <StudentSidebar :open="sidebarOpen" @update:open="sidebarOpen = $event" />
 
     <div class="main-wrap">
 

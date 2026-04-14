@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="feedback-page">
 
     <!-- ── Ambient background (same as dashboard) ── -->
@@ -10,7 +10,7 @@
     <div class="bg-grid" aria-hidden="true"></div>
 
     <!-- ── Sidebar ── -->
-    <StudentSidebar />
+    <StudentSidebar :open="sidebarOpen" @update:open="sidebarOpen = $event" />
 
     <!-- ── Main content ── -->
     <div class="main-wrap">

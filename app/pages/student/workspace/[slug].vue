@@ -8,9 +8,7 @@
       <div class="ambient a-br"></div>
     </div>
     <div class="bg-grid" aria-hidden="true"></div>
-
-    <StudentSidebar />
-
+    <StudentSidebar :open="sidebarOpen" @update:open="sidebarOpen = $event" />
     <div class="main-wrap">
 
       <!-- ─── TOPBAR ─── -->

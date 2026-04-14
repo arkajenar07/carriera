@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="hub-page">
 
     <!-- ── Ambient ── -->
@@ -10,7 +10,7 @@
     <div class="bg-grid" aria-hidden="true"></div>
 
     <!-- ── Sidebar ── -->
-    <StudentSidebar />
+    <StudentSidebar :open="sidebarOpen" @update:open="sidebarOpen = $event" />
 
     <!-- ── Main ── -->
     <div class="main-wrap">

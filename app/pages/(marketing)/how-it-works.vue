@@ -93,7 +93,6 @@
         </div>
       </section>
 
-      <!-- ══════════════════════ REAL WORKFLOW DEMO ══════════════════════ -->
       <section class="section dark-section">
         <div class="dark-inner">
           <div class="section-label section-label-light">

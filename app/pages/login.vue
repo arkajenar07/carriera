@@ -138,7 +138,7 @@
 
             <!-- Submit -->
             <button type="submit" class="btn-submit" :disabled="isLoading">
-              <span v-if="!isLoading">
+              <span v-if="!isLoading" class="flex items-center justify-center gap-2">
                 Masuk
                 <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/>
